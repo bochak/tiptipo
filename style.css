@@ -1,0 +1,89 @@
+html {
+background-color:rgb(255, 255, 255);
+height: 100%;
+
+}
+
+
+#logo {
+
+height: 100px;
+width: auto;
+display: grid;
+margin: 0 auto
+
+}
+
+#titel {
+
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+#container {
+height: 325px;
+width: 350px;
+background-color:burlywood;
+display: grid;
+    margin: 0 auto;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-template-areas:
+                ". bill-amount"
+                ". tip-precentge"
+                ". tip-amount"
+                " btn btn";
+    border: 5px solid black;
+    padding: 25px;
+}
+
+#bill_amount   {
+
+    grid-area: bill-amount;
+
+}
+
+#tip_precentge {
+        grid-area: tip-precentge;
+
+}
+
+#tip_amount    {
+
+        grid-area: tip-amount;
+}
+
+h1 {
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+    margin: 0 auto;
+    color: black;
+    
+}
+#total_bill    {
+
+  text-align: center;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: burlywood;
+    display: grid;
+    margin: 0 auto;
+
+
+}
+
+.input-styling {
+height: 25px;
+width:250px;
+
+
+}
+
+#btn {
+
+    grid-area: btn;
+    height: 25px;
+    width: auto;
+}
